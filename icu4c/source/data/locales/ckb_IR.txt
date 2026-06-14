@@ -2,8 +2,6 @@
 // License & terms of use: http://www.unicode.org/copyright.html
 // Generated using tools/cldr/cldr-to-icu/
 ckb_IR{
-    %%Parent{"ckb"}
-
     // 1. Enable Persian/Extended Arabic numbering system (۰، ۱، ۲، ۳، ۴، ۵، ۶، ۷، ۸، ۹)
     defaultNumberingSystem{"arabext"}
 
@@ -36,7 +34,7 @@ ckb_IR{
                 "yMMdd",
             }
             // 2. Gregorian month names in Latin script
-            months{
+            monthNames{
                 format{
                     wide{
                         "January",
@@ -96,7 +94,7 @@ ckb_IR{
                 "GGGGGyMMdd",
             }
             // 3. Persian calendar with corrected native Kurdish month names
-            months{
+            monthNames{
                 format{
                     wide{
                         "خاکەلێوە",
