@@ -1,4 +1,4 @@
-﻿// © 2016 and later: Unicode, Inc. and others.
+// © 2016 and later: Unicode, Inc. and others.
 // License & terms of use: http://www.unicode.org/copyright.html
 // Generated using tools/cldr/cldr-to-icu/
 ckb{
@@ -9,7 +9,7 @@ ckb{
     NumberElements{
         arab{
             patterns{
-                percentFormat{"#,##0 %"}
+                percentFormat{"#,##0 %"}
             }
             symbols{
                 minusSign{"‏-"}
@@ -33,7 +33,7 @@ ckb{
                 "h:mm:ss a",
                 "h:mm a",
                 "G y MMMM d, EEEE",
-                "dی MMMMی y G",
+                "d ی MMMMی y G",
                 "G y MMM d",
                 "G y-MM-dd",
                 "{1} {0}",
@@ -45,13 +45,13 @@ ckb{
             availableFormats{
                 Ed{"E dھەم"}
                 MEd{"E، M/d"}
-                MMMEd{"E، dی MMM"}
-                MMMd{"dی MMM"}
+                MMMEd{"E، d ی MMM"}
+                MMMd{"d ی MMM"}
                 yM{"M/y"}
                 yMEd{"E، d/M/y"}
                 yMMM{"MMMی y"}
-                yMMMEd{"E، dی MMMی y"}
-                yMMMd{"dی MMMی y"}
+                yMMMEd{"E، d ی MMMی y"}
+                yMMMd{"d ی MMMی y"}
                 yMd{"d/M/y"}
             }
             intervalFormats{
@@ -63,10 +63,10 @@ ckb{
                     M{"MMM–MMM"}
                 }
                 MMMEd{
-                    d{"E، dی MMM – E، dی MMM"}
+                    d{"E، d ی MMM – E، d ی MMM"}
                 }
                 MMMd{
-                    d{"d–dی MMM"}
+                    d{"d–d ی MMM"}
                 }
                 fallback{"{0} – {1}"}
                 yMEd{
@@ -79,9 +79,9 @@ ckb{
                     y{"MMMی y – MMMی y"}
                 }
                 yMMMd{
-                    M{"dی MMM – dی MMMی y"}
-                    d{"d–dی MMMی y"}
-                    y{"dی MMMMی y – dی MMMMی y"}
+                    M{"d ی MMM – d ی MMMی y"}
+                    d{"d–d ی MMMی y"}
+                    y{"d ی MMMMی y – d ی MMMMی y"}
                 }
                 yMd{
                     y{"d/M/y – d/M/y"}
@@ -99,7 +99,7 @@ ckb{
                 "h:mm:ss a",
                 "h:mm a",
                 "y MMMM d, EEEE",
-                "dی MMMMی y",
+                "d ی MMMMی y",
                 "y MMM d",
                 "y-MM-dd",
                 "{1} {0}",
@@ -121,18 +121,18 @@ ckb{
             availableFormats{
                 Ed{"E dھەم"}
                 MEd{"E، M/d"}
-                MMMEd{"E، dی MMM"}
+                MMMEd{"E، d ی MMM"}
                 MMMMW{
                     one{"هەفتەی W ی MMMM"}
                     other{"هەفتەی W ی MMMM"}
                 }
-                MMMd{"dی MMM"}
+                MMMd{"d ی MMM"}
                 h{"hی a"}
                 yM{"M/y"}
                 yMEd{"E، d/M/y"}
                 yMMM{"MMMی y"}
-                yMMMEd{"E، dی MMMی y"}
-                yMMMd{"dی MMMی y"}
+                yMMMEd{"E، d ی MMMی y"}
+                yMMMd{"d ی MMMی y"}
                 yMd{"d/M/y"}
                 yw{
                     one{"هەفتەی w ی Y"}
@@ -190,7 +190,7 @@ ckb{
                     wide{
                         "کانوونی دووەم",
                         "شوبات",
-                        "ئازار",
+                        "ئادار",
                         "نیسان",
                         "ئایار",
                         "حوزەیران",
@@ -199,7 +199,21 @@ ckb{
                         "ئەیلوول",
                         "تشرینی یەکەم",
                         "تشرینی دووەم",
-                        "کانونی یەکەم",
+                        "کانوونی یەکەم",
+                    }
+                    abbreviated{
+                        "کانوونی دوو",
+                        "شوبات",
+                        "ئادار",
+                        "نیسان",
+                        "ئایار",
+                        "حوزەیران",
+                        "تەمووز",
+                        "ئاب",
+                        "ئەیلوول",
+                        "تشرینی یەک",
+                        "تشرینی دوو",
+                        "کانوونی یەک",
                     }
                 }
                 stand-alone{
