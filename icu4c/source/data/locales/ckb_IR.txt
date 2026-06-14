@@ -1,7 +1,12 @@
-﻿// © 2016 and later: Unicode, Inc. and others.
+// © 2016 and later: Unicode, Inc. and others.
 // License & terms of use: http://www.unicode.org/copyright.html
 // Generated using tools/cldr/cldr-to-icu/
 ckb_IR{
+    %%Parent{"ckb"}
+
+    // 1. Enable Persian/Extended Arabic numbering system (۰، ۱، ۲، ۳، ۴، ۵، ۶، ۷، ۸، ۹)
+    defaultNumberingSystem{"arabext"}
+
     calendar{
         default{"persian"}
         gregorian{
@@ -11,7 +16,7 @@ ckb_IR{
                 "HH:mm:ss",
                 "HH:mm",
                 "y MMMM d, EEEE",
-                "dی MMMMی y",
+                "d ی MMMMی y",
                 "y MMM d",
                 "y-MM-dd",
                 "{1} {0}",
@@ -30,6 +35,39 @@ ckb_IR{
                 "yMMMd",
                 "yMMdd",
             }
+            // 2. Gregorian month names in Latin script
+            months{
+                format{
+                    wide{
+                        "January",
+                        "February",
+                        "March",
+                        "April",
+                        "May",
+                        "June",
+                        "July",
+                        "August",
+                        "September",
+                        "October",
+                        "November",
+                        "December",
+                    }
+                    abbreviated{
+                        "Jan",
+                        "Feb",
+                        "Mar",
+                        "Apr",
+                        "May",
+                        "Jun",
+                        "Jul",
+                        "Aug",
+                        "Sep",
+                        "Oct",
+                        "Nov",
+                        "Dec",
+                    }
+                }
+            }
         }
         persian{
             DateTimePatterns{
@@ -38,7 +76,7 @@ ckb_IR{
                 "HH:mm:ss",
                 "HH:mm",
                 "G y MMMM d, EEEE",
-                "dی MMMMی y G",
+                "d ی MMMMی y G",
                 "G y MMM d",
                 "G y-MM-dd",
                 "{1} {0}",
@@ -57,7 +95,8 @@ ckb_IR{
                 "GyMMMd",
                 "GGGGGyMMdd",
             }
-            monthNames{
+            // 3. Persian calendar with corrected native Kurdish month names
+            months{
                 format{
                     wide{
                         "خاکەلێوە",
@@ -67,11 +106,25 @@ ckb_IR{
                         "گەلاوێژ",
                         "خەرمانان",
                         "ڕەزبەر",
-                        "گەڵاڕێزان",
+                        "خەزەڵوەر",
                         "سەرماوەز",
                         "بەفرانبار",
                         "ڕێبەندان",
-                        "ڕەشەمە",
+                        "ڕەشەمێ",
+                    }
+                    abbreviated{
+                        "خاکەلێوە",
+                        "گوڵان",
+                        "جۆزەردان",
+                        "پووشپەڕ",
+                        "گەلاوێژ",
+                        "خەرمانان",
+                        "ڕەزبەر",
+                        "خەزەڵوەر",
+                        "سەرماوەز",
+                        "بەفرانبار",
+                        "ڕێبەندان",
+                        "ڕەشەمێ",
                     }
                 }
             }
