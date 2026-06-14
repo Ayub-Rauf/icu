@@ -2,6 +2,8 @@
 // License & terms of use: http://www.unicode.org/copyright.html
 // Generated using tools/cldr/cldr-to-icu/
 ckb_IR{
+    %%Parent{"ckb"}
+
     // 1. Enable Persian/Extended Arabic numbering system (۰، ۱، ۲، ۳، ۴، ۵، ۶، ۷، ۸، ۹)
     defaultNumberingSystem{"arabext"}
 
